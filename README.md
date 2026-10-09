@@ -1,5 +1,7 @@
 # Agents Factory
 
+*[อ่านเอกสารเป็นภาษาไทย (Read in Thai)](README_TH.md)*
+
 The **Agents Factory** is a reusable meta-system designed for the Antigravity 2.0 Agent Manager. It configures, validates, and provisions an AI-assisted engineering team for future projects.
 
 Instead of generating one monolithic setup, this Factory generates an adaptive workspace structure tailored to project scope, complexity, and risk.
