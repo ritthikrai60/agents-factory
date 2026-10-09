@@ -1,0 +1,19 @@
+[project]
+name = "autonomous-orchestrator"
+version = "0.1.0"
+description = "Autonomous Software Engineering Orchestrator"
+dependencies = [
+    "pyyaml",
+    "pydantic",
+    "sqlalchemy",
+    "networkx",
+    "click",
+    "rich"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+orchestrator = "orchestrator.cli.main:cli"
