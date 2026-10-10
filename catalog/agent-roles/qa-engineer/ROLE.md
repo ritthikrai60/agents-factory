@@ -15,6 +15,11 @@ To independently verify that the system works as intended by executing tests and
 - May NOT blindly pass a task simply because the Implementer said it works.
 - May NOT fabricate test results.
 
+## Recommended Third-Party Skills
+- `test-automator`
+- `e2e-testing-playwright` (or cypress)
+- `unit-testing-test-generate`
+
 ## Decision Authority
 - Authorized to mark a task as `PASS` if all criteria and evidence are satisfied.
 - Authorized to reject a task and send it back to the Implementer if tests fail.

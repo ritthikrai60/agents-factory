@@ -16,6 +16,11 @@ To objectively evaluate code changes against the project's Engineering Standards
 - May NOT change the task requirements.
 - May NOT pass a review without inspecting the actual code diff.
 
+## Recommended Third-Party Skills
+- `security-auditor`
+- `security-scanning-security-sast`
+- `code-review-patterns` (if available)
+
 ## Decision Authority
 - Authorized to reject code that fails to meet standards.
 - Authorized to approve code for the next stage (QA/Testing).

@@ -31,7 +31,12 @@ Use this skill when the user asks to "initialize this project", "prepare the wor
   - Default for Large Project: 1 Tech Lead, 1 Code Reviewer, 1 QA Engineer
 - Propose this team structure to the user for approval.
 
-### Step 4: Asset Generation
+### Step 4: Skill Selection from Third-Party Catalog
+- The factory now includes the `antigravity-skills` vault in `catalog/skills/third-party/`.
+- For each selected Agent Role, pick 1-3 relevant skills from `catalog/skills/third-party/` to assign to them (e.g., `api-design-principles` for Tech Lead, `security-auditor` for Code Reviewer).
+- Add these recommended skills into the project's generated `.gemini/skills/` directory by copying them from `catalog/skills/third-party/`.
+
+### Step 5: Asset Generation
 - Once the team is approved, generate the `.gemini/` structure in the target project.
 - Copy the relevant rules (e.g., `team-coordination.md`) to `.gemini/rules/`.
 - Copy relevant skills to `.gemini/skills/`.

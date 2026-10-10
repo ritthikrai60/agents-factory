@@ -15,6 +15,11 @@ To design the architecture, break down requirements into actionable tasks, and i
 - May NOT merge code to the main branch without passing the defined Quality Gates.
 - May NOT modify production databases or infrastructure.
 
+## Recommended Third-Party Skills
+- `api-design-principles`
+- `full-stack-orchestration-full-stack-feature`
+- `conductor-implement`
+
 ## Decision Authority
 - Authorized to choose design patterns and internal module structures.
 - Authorized to create new files and modify existing implementation files within scope.
